@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url(../font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Neucha-Regular';
+  src: url(../font/Neucha-Regular.ttf);
+}
+
+body {
+  background-image: url(../images/background.png);
+}
+
+.h1-title {
+  line-height: 1.2em;
+  font-size: 72px;
+  font-family: 'Neucha-Regular';
+  color: #2A2626;
+}
+
+.h2-title {
+  line-height: 1.2em;
+  font-size: 60px;
+  color: #2A2626;
+}
+
+.h3-title {
+  line-height: 1.2em;
+  font-size: 34px;
+  color: #2A2626;
+}
+
+section {
+  max-width: 1110px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
