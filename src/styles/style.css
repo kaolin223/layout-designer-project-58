@@ -8,6 +8,17 @@
   src: url(../font/Neucha-Regular.ttf);
 }
 
+h1,
+h2,
+h3,
+h4 {
+  z-index: 1;
+  margin: 0;
+  color: #fe8a02;
+  font-family: 'Neucha-Regular';
+  line-height: 1.2em;
+}
+
 /* header */
 
 .background-header {
@@ -20,11 +31,14 @@
   opacity: 90%;
 }
 
-.header-section {
+.header-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
   max-width: 1110px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  text-align: center;
+  min-height: 900px;
+  margin: 0 auto;
+  padding: 100px 0;
 }
 
 .header-title {
@@ -36,5 +50,46 @@
   height: 525px;
   top: 55px;
   right: -270px;
-  position: relative;
+  position: absolute;
+}
+
+.color-black-title {
+  font-family: 'Neucha-Regular';
+  font-weight: 400;
+  color: #2a2626;
+}
+
+.header-text {
+  padding-top: 200px;
+}
+
+.main-header-text {
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.paragraph {
+  color: #42413c;
+}
+
+.navigate-button {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 148px;
+  height: 49px;
+}
+
+.header-button {
+  position: absolute;
+  margin-top: 40px;
+  width: 148px;
+  height: 49px;
+  background-color: #fe8a02;
+  font-family: Open-Sans, serif;
+  color: #f5f4f0;
+  font-weight: 700;
+  font-size: 16px;
+  border: #f5f4f0;
 }
