@@ -15,7 +15,7 @@
 *::after {
   border: none;
   box-sizing: border-box;
-}
+} /* назначаем стили для всех элементов и их псевдоэлементов */
 
 body {
   margin: 0;
@@ -38,14 +38,14 @@ body {
   --headline-height: 1.2em;
   --text-dark: #2a2626;
   --link-color: #007dc1;
-}
+} /* переменные для доступа к цветам и настройкам */
 
 header,
 section,
 footer,
 nav {
   position: relative;
-}
+} /* устанавливаем относительное положение в этих элементах html */ 
 
 .container {
   position: relative;
@@ -55,7 +55,9 @@ nav {
   min-height: 900px;
   margin: 0 auto;
   padding: 100px 0;
-}
+} /* настройка контейнеров */
+
+/* Titles */
 
 h1,
 h2,
@@ -66,8 +68,7 @@ h3 {
   font-family: 'Neucha-Regular', serif;
   color: var(--main);
   z-index: 1;
-}
-
+} 
 
 h1 {
   font-size: 72px;
@@ -82,6 +83,8 @@ h3 {
   font-size: 34px;
 
 }
+
+/* background color and text color */ 
 
 .main-color {
   color: var(--main);
@@ -202,4 +205,13 @@ h3 {
   margin-top: -100px;
   bottom: -100px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+/* navigation section */
+
+#navigation {
+  margin-top: -100px;
+  padding-top: 100px;
+  z-index: 1;
+  background-color: var(--main-dark);
 }
