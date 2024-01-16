@@ -215,3 +215,59 @@ h3 {
   z-index: 1;
   background-color: var(--main-dark);
 }
+
+.list > a {
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  row-gap: 20px;
+}
+
+.list-title {
+  font-family: 'Neucha-Regular', serif;
+  font-size: 52px;
+}
+
+.list-item {
+  width: 350px;
+  height: 323px;
+}
+
+.list-item-card {
+  padding: 24px;
+  background-color: var(--light);
+}
+
+.list-item-card:hover {
+  background-color: var(--main);
+}
+
+.number {
+  margin-bottom: 40px;
+  font-size: 64px;
+  font-family: 'Neucha-Regular', serif;
+  line-height: 1px;
+  color: var(--main-dark);
+}
+
+.list-item-card:hover .number {
+  color: var(--white);
+}
+
+.list-item-card:hover .card-name {
+  color: var(--white);
+}
+
+.list-item-card:hover .text-dark {
+  color: var(--white);
+}
+
+.list-item-text {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
