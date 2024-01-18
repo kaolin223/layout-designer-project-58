@@ -210,64 +210,82 @@ h3 {
 /* navigation section */
 
 #navigation {
-  margin-top: -100px;
-  padding-top: 100px;
-  z-index: 1;
-  background-color: var(--main-dark);
+  padding: 200px 0 100px;
+  background: #42413c;
 }
 
-.list > a {
+.navigation-title {
+  font-size: 52px;
+  color: #fff;
+  background: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-list .navigation-title {
+  width: 350px;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0 0 20px;
+}
+
+.navigation-list .navigation-item {
+  width: 350px;
+  padding: 24px;
+  box-sizing: border-box;
+  background: #f5f4f0;
+  list-style: none;
+}
+
+.navigation-item-link {
   text-decoration: none;
 }
 
-.list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  row-gap: 20px;
+.navigation-item:nth-child(-n+3) {
+  margin-bottom: 20px;
 }
 
-.list-title {
-  font-family: 'Neucha-Regular', serif;
+.navigation-title-52 {
   font-size: 52px;
 }
 
-.list-item {
-  width: 350px;
-  height: 323px;
-}
-
-.list-item-card {
-  padding: 24px;
-  background-color: var(--light);
-}
-
-.list-item-card:hover {
-  background-color: var(--main);
-}
-
-.number {
-  margin-bottom: 40px;
+.navigation-item-num {
   font-size: 64px;
-  font-family: 'Neucha-Regular', serif;
-  line-height: 1px;
-  color: var(--main-dark);
+  color: #42413c;
+  margin: 0 0 40px;
 }
 
-.list-item-card:hover .number {
-  color: var(--white);
+.navigation-item-title {
+  margin: 0 0 16px;
 }
 
-.list-item-card:hover .card-name {
-  color: var(--white);
+.navigation-item-txt {
+  color: #2a2626;
+  margin: 0;
 }
 
-.list-item-card:hover .text-dark {
-  color: var(--white);
+.navigation-item:hover {
+  background-color: #fe8a02;
+  transition: 0.1s linear;
 }
 
-.list-item-text {
-  margin-top: 16px;
-  margin-bottom: 0;
+.navigation-item:hover .navigation-item-title {
+  color: #fff;
 }
+
+.navigation-item:hover .navigation-item-num {
+  color: #fff;
+}
+
+.navigation-item:hover .navigation-item-txt {
+  color: #fff;
+}
+
