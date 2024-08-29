@@ -301,3 +301,97 @@
 
   margin-top: 16px;
 }
+
+/* IKEA EFFECT */ 
+
+.ikea-effect {
+  padding: 100px 0;
+  background-color: #F5F4F0;
+}
+
+.ikea-effect__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 95px;
+}
+
+.ikea-effect__title-container {
+  height: 442px;
+}
+
+.ikea-effect__image {
+  position: relative;
+  right: 31px;
+  bottom: 14px;
+}
+
+
+.ikea-effect__text-container {
+  position: relative;
+
+  bottom: 507px;
+  left: 607px;
+}
+
+
+.ikea-effect__subtitle {
+
+  color: #908D8B;
+  font-family: 'Neucha';
+  font-size: 24px;
+  line-height: 28.8px;
+
+}
+
+.ikea-effect__title {
+
+  line-height: 74px;
+  margin-bottom: 30px;
+
+}
+
+.ikea-effect__paragraph {
+  color: #2A2626;
+  font-family: 'Neucha';
+  font-size: 34px;
+  line-height: 40.8px; 
+
+  width: 502px;
+  height: 102px;
+}
+
+.how-work {
+
+}
+
+.how-work__title {
+  color: #FFFFFF;
+  font-family: 'Open-Sans';
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 700;
+  background-color: #B09A81;
+
+  height: 26px;
+  padding-top: 5px;
+  padding-left: 11px;
+  margin-bottom: 20px;
+}
+
+.ikea-effect-paragraph-container {
+  display: flex;
+}
+
+.how-work__paragraph-1 {
+  font-family: 'Open-Sans';
+  font-size: 16px;
+  min-width: 540px;
+  line-height: 25.6px;
+  margin-right: 30px;
+}
+
+.how-work__paragraph-2 {
+  font-family: 'Open-Sans';
+  font-size: 16px;
+  line-height: 25.6px;
+}
