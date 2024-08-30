@@ -147,8 +147,13 @@
   bottom: 444px;
   left: 570px;
   border: none;
+  transition: 0.2s;
 
   background-color: #FE8A02;
+}
+
+.header__button:hover {
+  background-color: #EA7600;
 }
 
 .header__button a {
@@ -249,6 +254,7 @@
   width: 350px;
   height: 323px;
   padding: 24px;
+  transition: 0.2s;
 
   background-color: #F5F4F0;
 }
@@ -265,11 +271,35 @@
   height: 348px;
 }
 
+.card:hover {
+  background-color: #FE8A02;
+}
+
 .number {
   font-size: 64px;
 
   font-family: 'Neucha';
   line-height: 1;
+}
+
+.card:hover .number {
+  color: #FFFFFF;
+}
+
+.card:hover .title__navigation {
+  color: #FFFFFF;
+}
+
+.card:hover .paragraph__navigation {
+  color: #FFFFFF;
+}
+
+.card:hover .paragraph__navigation_4 {
+  color: #FFFFFF;
+}
+
+.card:hover .paragraph__navigation_5 {
+  color: #FFFFFF;
 }
 
 .title__navigation {
