@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Open-Sans';
+    font-family: Open-Sans;
     font-weight: 400;
     src: url(../fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'Neucha';
+    font-family: Neucha;
     font-weight: 400;
     src: url(../fonts/Neucha-Regular.ttf);
 }
@@ -29,14 +29,14 @@
   }
 
   body {
-    font-family: 'Open-Sans';
+    font-family: Open-Sans;
     font-size: 16px;
     line-height: 1.6em;
     color: #2A2626;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Neucha'
+    font-family: Neucha
   }
 
   h1 {
@@ -152,7 +152,7 @@
 }
 
 .header__button a {
-  font-family: 'Open-Sans';
+  font-family: Open-Sans;
   font-size: 16px;
   font-weight: 700;
   line-height: 25.6px;
@@ -235,7 +235,7 @@
 }
 
 .navigation__text {
-  font-family: 'Neucha';
+  font-family: Neucha;
   font-size: 52px;
   line-height: 62.4px;
   color: #FFFFFF;
@@ -279,7 +279,7 @@
 }
 
 .paragraph__navigation {
-  font-family: 'Open-Sans';
+  font-family: Open-Sans;
   font-size: 16px;
   line-height: 25.6px;
 
@@ -287,7 +287,7 @@
 }
 
 .paragraph__navigation_5 {
-  font-family: 'Open-Sans';
+  font-family: Open-Sans;
   font-size: 16px;
   line-height: 25.6px;
 
@@ -295,7 +295,7 @@
 }
 
 .paragraph__navigation_4 {
-  font-family: 'Open-Sans';
+  font-family: Open-Sans;
   font-size: 16px;
   line-height: 25.6px;
 
@@ -337,7 +337,7 @@
 .ikea-effect__subtitle {
 
   color: #908D8B;
-  font-family: 'Neucha';
+  font-family: Neucha;
   font-size: 24px;
   line-height: 28.8px;
 
@@ -352,7 +352,7 @@
 
 .ikea-effect__paragraph {
   color: #2A2626;
-  font-family: 'Neucha';
+  font-family: Neucha;
   font-size: 34px;
   line-height: 40.8px; 
 
@@ -360,13 +360,9 @@
   height: 102px;
 }
 
-.how-work {
-
-}
-
 .how-work__title {
   color: #FFFFFF;
-  font-family: 'Open-Sans';
+  font-family: Open-Sans;
   font-size: 14px;
   line-height: 16.8px;
   font-weight: 700;
@@ -383,7 +379,7 @@
 }
 
 .how-work__paragraph-1 {
-  font-family: 'Open-Sans';
+  font-family: Open-Sans;
   font-size: 16px;
   min-width: 540px;
   line-height: 25.6px;
@@ -391,6 +387,95 @@
 }
 
 .how-work__paragraph-2 {
+  font-family: Open-Sans;
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+/* PREMATURE OPTIMIZATION */ 
+
+.premature-optimization {
+  padding: 100px 0;
+  background-color: #B09A81;
+}
+
+.premature-optimization__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 95px;
+}
+
+.premature-optimization__text-container {
+  position: relative;
+  height: 436px;
+}
+
+.premature-optimization__subtitle {
+  position: relative;
+
+  bottom: 5px;
+
+  color: #D7CCC0;
+  font-family: Neucha;
+  font-size: 24px;
+  line-height: 28.8px;
+
+}
+
+.premature-optimization__title {
+  position: relative;
+
+  bottom: 7px;
+
+  color: #FFFFFF;
+  line-height: 72px;
+
+  margin-bottom: 23px;
+}
+
+.premature-optimization__paragraph {
+  color: #FFFFFF;
+  font-size: 34px;
+  font-family: Neucha;
+  line-height: 40.8px;
+
+  width: 502px;
+}
+
+.premature-optimization__image {
+  position: relative;
+
+  left: 500px;
+  bottom: 336px;
+}
+
+.premature__how-work__title {
+  color: #B09A81;
+  font-family: 'Open-Sans';
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 700;
+  background-color: #FFFFFF;
+
+  height: 26px;
+  padding-top: 5px;
+  padding-left: 11px;
+  margin-bottom: 20px;
+}
+
+.premature-optimization-container {
+  display: flex;
+}
+
+.premature__how-work__paragraph-1 {
+  font-family: 'Open-Sans';
+  font-size: 16px;
+  min-width: 540px;
+  line-height: 25.6px;
+  margin-right: 22px;
+}
+
+.premature__how-work__paragraph-2 {
   font-family: 'Open-Sans';
   font-size: 16px;
   line-height: 25.6px;
