@@ -58,6 +58,10 @@
     max-width: 1110px;
 }
 
+.paragraph-container {
+  display: flex;
+}
+
 /* BACKGROUND IMAGE */
 
 .background__image {
@@ -404,10 +408,6 @@
   margin-bottom: 20px;
 }
 
-.ikea-effect-paragraph-container {
-  display: flex;
-}
-
 .how-work__paragraph-1 {
   font-family: Open-Sans;
   font-size: 16px;
@@ -493,20 +493,99 @@
   margin-bottom: 20px;
 }
 
-.premature-optimization-container {
-  display: flex;
-}
-
 .premature__how-work__paragraph-1 {
   font-family: 'Open-Sans';
   font-size: 16px;
   min-width: 540px;
   line-height: 25.6px;
   margin-right: 22px;
+  color: #FFFFFF;
 }
 
 .premature__how-work__paragraph-2 {
   font-family: 'Open-Sans';
+  font-size: 16px;
+  line-height: 25.6px;
+  color: #FFFFFF;
+}
+
+/* DISTORIAN OF NOVEITY */
+
+.distorion-of-noveity {
+  background-color: #F5F4F0;
+  padding: 100px 0;
+}
+
+.distorian-of-noveity__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 95px;
+}
+
+.distorian-of-noveity__title-container {
+  height: 438px;
+}
+
+.distorian-of-noveity-image {
+  position: relative;
+  right: 31px;
+  bottom: 14px;
+}
+
+.distorian-of-noveity__text-container {
+  position: relative;
+
+  bottom: 507px;
+  left: 607px;
+}
+
+.distorian-of-noveity__subtitle {
+  color: #908D8B;
+  font-family: Neucha;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.distorian-of-noveity__title {
+  line-height: 74px;
+  margin-bottom: 30px;
+}
+
+.distorian-of-noveity__paragraph {
+  color: #2A2626;
+  font-family: Neucha;
+  font-size: 34px;
+  line-height: 40.8px; 
+
+  width: 502px;
+  height: 102px;
+}
+
+.distorian-how-work__title {
+  color: #FFFFFF;
+  font-family: Open-Sans;
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 700;
+  background-color: #B09A81;
+
+  height: 26px;
+  padding-top: 5px;
+  padding-left: 11px;
+  margin-bottom: 20px;
+}
+
+.distorian__how-work__paragraph-1 {
+  font-family: Open-Sans;
+  font-size: 16px;
+  min-width: 540px;
+  line-height: 25.6px;
+  margin-right: 30px;
+  width: 540px;
+}
+
+.distorian__how-work__paragraph-2 {
+  font-family: Open-Sans;
   font-size: 16px;
   line-height: 25.6px;
 }
