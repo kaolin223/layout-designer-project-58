@@ -481,7 +481,7 @@
 
 .premature__how-work__title {
   color: #B09A81;
-  font-family: 'Open-Sans';
+  font-family: Open-Sans;
   font-size: 14px;
   line-height: 16.8px;
   font-weight: 700;
@@ -494,7 +494,7 @@
 }
 
 .premature__how-work__paragraph-1 {
-  font-family: 'Open-Sans';
+  font-family: Open-Sans;
   font-size: 16px;
   min-width: 540px;
   line-height: 25.6px;
@@ -503,7 +503,7 @@
 }
 
 .premature__how-work__paragraph-2 {
-  font-family: 'Open-Sans';
+  font-family: Open-Sans;
   font-size: 16px;
   line-height: 25.6px;
   color: #FFFFFF;
@@ -588,4 +588,91 @@
   font-family: Open-Sans;
   font-size: 16px;
   line-height: 25.6px;
+}
+
+
+/* HYBERBOLIC DEPRESIATION */ 
+
+.hyperbolic-depreciation {
+background-color: #B09A81;
+padding: 100px 0;
+}
+
+.hyperbolic-depreciation__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 95px;
+}
+
+.hyperbolic-depreciation__text-container {
+  position: relative;
+  height: 436px;
+}
+
+.hyperbolic-depreciation__subtitle {
+  position: relative;
+
+  bottom: 5px;
+
+  color: #D7CCC0;
+  font-family: Neucha;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.hyperbolic-depreciation__title {
+  position: relative;
+
+  bottom: 7px;
+
+  color: #FFFFFF;
+  line-height: 72px;
+
+  margin-bottom: 23px;
+}
+
+.hyperbolic-depreciation__paragraph {
+  color: #FFFFFF;
+  font-size: 34px;
+  font-family: Neucha;
+  line-height: 40.8px;
+
+  width: 502px;
+}
+
+.hyperbolic-depreciation__image {
+  position: relative;
+
+  left: 500px;
+  bottom: 377px;
+}
+
+.hyperbolic-depreciation__how-work__title {
+  color: #B09A81;
+  font-family: Open-Sans;
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 700;
+  background-color: #FFFFFF;
+
+  height: 26px;
+  padding-top: 5px;
+  padding-left: 11px;
+  margin-bottom: 20px;
+}
+
+.hyperbolic-depreciation__how-work__paragraph-1 {
+  font-family: Open-Sans;
+  font-size: 16px;
+  min-width: 540px;
+  line-height: 25.6px;
+  margin-right: 22px;
+  color: #FFFFFF;
+}
+
+.hyperbolic-depreciation__how-work__paragraph-2 {
+  font-family: Open-Sans;
+  font-size: 16px;
+  line-height: 25.6px;
+  color: #FFFFFF;
 }
