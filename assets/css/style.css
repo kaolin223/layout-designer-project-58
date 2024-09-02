@@ -62,6 +62,12 @@
   display: flex;
 }
 
+.section__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 95px;
+}
+
 /* BACKGROUND IMAGE */
 
 .background__image {
@@ -343,12 +349,6 @@
   background-color: #F5F4F0;
 }
 
-.ikea-effect__inner {
-  display: flex;
-  flex-direction: column;
-  gap: 95px;
-}
-
 .ikea-effect__title-container {
   height: 442px;
 }
@@ -366,7 +366,6 @@
   bottom: 507px;
   left: 607px;
 }
-
 
 .ikea-effect__subtitle {
 
@@ -393,6 +392,7 @@
   width: 502px;
   height: 102px;
 }
+
 
 .how-work__title {
   color: #FFFFFF;
@@ -427,12 +427,6 @@
 .premature-optimization {
   padding: 100px 0;
   background-color: #B09A81;
-}
-
-.premature-optimization__inner {
-  display: flex;
-  flex-direction: column;
-  gap: 95px;
 }
 
 .premature-optimization__text-container {
@@ -516,12 +510,6 @@
   padding: 100px 0;
 }
 
-.distorian-of-noveity__inner {
-  display: flex;
-  flex-direction: column;
-  gap: 95px;
-}
-
 .distorian-of-noveity__title-container {
   height: 438px;
 }
@@ -598,12 +586,6 @@ background-color: #B09A81;
 padding: 100px 0;
 }
 
-.hyperbolic-depreciation__inner {
-  display: flex;
-  flex-direction: column;
-  gap: 95px;
-}
-
 .hyperbolic-depreciation__text-container {
   position: relative;
   height: 436px;
@@ -675,4 +657,78 @@ padding: 100px 0;
   font-size: 16px;
   line-height: 25.6px;
   color: #FFFFFF;
+}
+
+/* ERRORS ON PLANNING */ 
+
+.erros-on-planning {
+  background-color: #F5F4F0;
+  padding: 100px 0;
+}
+
+.erros-on-planning__title-container {
+  height: 442px;
+}
+
+.erros-on-planning-image {
+  position: relative;
+  right: 31px;
+  bottom: 14px;
+}
+
+.erros-on-planning__text-container {
+  position: relative;
+
+  bottom: 507px;
+  left: 607px;
+}
+
+.erros-on-planning__subtitle {
+  color: #908D8B;
+  font-family: Neucha;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.erros-on-planning__title {
+  line-height: 74px;
+  margin-bottom: 30px;
+}
+
+.erros-on-planning__paragraph {
+  color: #2A2626;
+  font-family: Neucha;
+  font-size: 34px;
+  line-height: 40.8px; 
+
+  width: 502px;
+  height: 102px;
+}
+
+.erros-on-planning-how-work__title {
+  color: #FFFFFF;
+  font-family: Open-Sans;
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 700;
+  background-color: #B09A81;
+
+  height: 26px;
+  padding-top: 5px;
+  padding-left: 11px;
+  margin-bottom: 20px;
+}
+
+.erros-on-planning__how-work__paragraph-1 {
+  font-family: Open-Sans;
+  font-size: 16px;
+  max-width: 540px;
+  line-height: 25.6px;
+  margin-right: 30px;
+}
+
+.erros-on-planning__how-work__paragraph-2 {
+  font-family: Open-Sans;
+  font-size: 16px;
+  line-height: 25.6px;
 }
